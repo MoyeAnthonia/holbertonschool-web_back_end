@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+""" Annotation function"""
+
 
 import math
 

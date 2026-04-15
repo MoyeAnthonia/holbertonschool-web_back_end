@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+""" Annotation function"""
+
+
 def add(a: float, b: float) -> float:
     """type annotation function value"""
     return a + b
