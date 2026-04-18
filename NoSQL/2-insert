@@ -1,0 +1,2 @@
+//add document in DB
+db.school.insertOne({ name: "Holberton school" })
