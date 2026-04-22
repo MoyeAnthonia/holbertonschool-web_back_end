@@ -1,0 +1,27 @@
+{
+  "name": "holbertonschool-web_back_end",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoyeAnthonia/holbertonschool-web_back_end.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MoyeAnthonia/holbertonschool-web_back_end/issues"
+  },
+  "homepage": "https://github.com/MoyeAnthonia/holbertonschool-web_back_end#readme",
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.2",
+    "babel-jest": "^30.3.0",
+    "eslint": "^10.2.1",
+    "jest": "^30.3.0"
+  }
+}
