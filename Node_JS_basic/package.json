@@ -1,0 +1,14 @@
+{
+  "name": "node_js_basic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "6-http_express.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.16.0"
+  }
+}
