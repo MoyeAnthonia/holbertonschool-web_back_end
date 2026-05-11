@@ -1,4 +1,6 @@
 export default function cleanSet(set, startString) {
+  const list = [];
+
   if (startString === "" || typeof startString !== "string") {
     return "";
   }
