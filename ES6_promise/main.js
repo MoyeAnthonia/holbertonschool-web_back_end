@@ -1,4 +1,3 @@
-import getFullResponseFromAPI from "./1-promise.js";
+import handleProfileSignup from "./6-final-user.js";
 
-console.log(getFullResponseFromAPI(true));
-console.log(getFullResponseFromAPI(false));
+console.log(handleProfileSignup("Bob", "Dylan", "bob_dylan.jpg"));
