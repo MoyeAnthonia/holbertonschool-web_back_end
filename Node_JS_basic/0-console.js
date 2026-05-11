@@ -1,6 +1,9 @@
-// displays a message in this function
+/**
+ * Prints a message to the standard output.
+ * @param {String} message - The message to display.
+ */
 function displayMessage(message) {
-  console.log(message);
+  process.stdout.write(`${message}\n`);
 }
 
 module.exports = displayMessage;
