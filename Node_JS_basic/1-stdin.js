@@ -1,12 +1,11 @@
-// process.stdout.write("Welcome to Holberton School, what is your name?\n");
-
-process.stdout.write("Welcome to Holberton School, what is your name?\n");
+// interactive and piped mode
+console.log("Welcome to Holberton School, what is your name?");
 
 process.stdin.on("data", (data) => {
-  const name = data.toString().trim();
-  process.stdout.write(`Your name is: ${name}\n`);
+  process.stdout.write(`Your name is: ${data}`);
+  process.stdin.pause();
 });
 
-process.stdin.on("close", () => {
-  process.stdout.write("This important software is now closing\n");
+process.stdin.on("end", () => {
+  console.log("This important software is now closing");
 });
