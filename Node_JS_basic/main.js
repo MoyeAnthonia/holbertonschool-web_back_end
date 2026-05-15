@@ -1,7 +1,9 @@
-process.on("exit", function (code) {
-  // do *NOT* do this
-  setTimeout(function () {
-    console.log("This will not run");
-  }, 0);
-  console.log("About to exit with code:", code);
-});
+const countStudents = require("./3-read_file_async.js");
+
+countStudents("nope.csv")
+  .then(() => {
+    console.log("Done!");
+  })
+  .catch((error) => {
+    console.log(error);
+  });
